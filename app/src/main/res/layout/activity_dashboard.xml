@@ -1,0 +1,43 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/ic_control_point_black_24dp"
+            android:background="@drawable/circle_red"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/add"/>
+        <TextView
+            android:text="Add Student"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+               android:src="@drawable/ic_zoom_in_black_24dp"
+              android:background="@drawable/circle_red"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/search"/>
+            <TextView
+                android:text="Search Student"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
